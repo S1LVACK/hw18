@@ -1,0 +1,23 @@
+@media (max-width: 768px){
+    .menu{
+        display: none;
+        
+    }
+    .own{
+        display: none;
+    }
+
+    .houndred{
+    
+        width: 100%;
+        background-color: aqua;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .div1 p{
+        width: 300px;
+    }
+    
+}

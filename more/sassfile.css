@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+  width: 90%;
+  height: 84px;
+  margin: auto;
+  background: rgba(137, 137, 137, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  display: flex;
+  align-items: center;
+}
+.menu .own {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu .own img {
+  transition: 1s;
+}
+.menu .own img:hover {
+  transition: 0.8s;
+  filter: drop-shadow(0px 20px 10px rgb(168, 168, 168));
+}
+.menu .own .buts {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu .own .buts .but {
+  font-size: 20px;
+  transition: 2s;
+}
+.menu .own .buts .but:hover {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: 0.8s;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  filter: drop-shadow(10px 10px rgb(86, 86, 86));
+}
+
+.sofas {
+  width: 90%;
+  margin: auto;
+  margin-top: 89px;
+}
+.sofas .div1 {
+  width: 100%;
+  height: 540px;
+  display: flex;
+}
+.sofas .div1 .part1 {
+  width: 60%;
+  height: 380px;
+}
+.sofas .div1 .part1 .vopros {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  color: #343434;
+  font-size: 30px;
+  align-items: center;
+  justify-content: start;
+}
+.sofas .div1 .part1 .vopros .kva {
+  font-size: 30px;
+  align-items: center;
+  justify-content: end;
+  color: #FFF;
+  font-weight: 700;
+  display: flex;
+  width: 80px;
+  height: 100%;
+  background-color: #A9C2BE;
+}
+.sofas .div1 .part1 .about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sofas .div1 .part1 .about .divc {
+  color: #343434;
+  margin-top: 47px;
+  width: 531px;
+  height: 122px;
+}
+.sofas .box {
+  width: 40%;
+  height: 480px;
+}
+.sofas .box .div22 {
+  width: 430px;
+  height: 312px;
+  margin-left: 60px;
+  box-shadow: -80px 60px 1px #5B5B5B;
+  transition: 1s;
+}
+.sofas .box .div22:hover {
+  transition: 0.8s;
+  box-shadow: -90px 60px 1px #5B5B5B;
+}
+.sofas .box .div2 {
+  width: 430px;
+  height: 312px;
+  box-shadow: 80px 60px 1px #A9C2BE;
+  transition: 1s;
+}
+.sofas .box .div2:hover {
+  transition: 0.8s;
+  box-shadow: 90px 60px 1px #A9C2BE;
+}
+
+.txtabout {
+  color: #343434;
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 135px;
+}
+
+.txtabout2 {
+  margin-top: 100px;
+  color: #343434;
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 135px;
+}
+
+.houndred {
+  margin-top: 100px;
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.houndred img {
+  transition: 1s;
+}
+.houndred img:hover {
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+.sad {
+  margin-top: 100px;
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sad img {
+  transition: 1s;
+}
+.sad img:hover {
+  box-shadow: 10px 10px 1px black;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.images img {
+  width: 350px;
+  height: 400px;
+}
+
+.txt3d {
+  margin-top: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #343434;
+  font-size: 30px;
+  font-weight: 600;
+}/*# sourceMappingURL=sassfile.css.map */
